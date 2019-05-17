@@ -31,3 +31,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* demo styles */
+.red {
+  background-color: pink;
+}
+.blue {
+  background-color: darkblue;
+}
+.green {
+  background-color: lightgreen;
+}
+.red, .blue, .green {
+  padding: 4rem;
+  margin: 4rem;
+  font-size: 2rem;
+  color: white;
+}
+button {
+  font-size: 2rem;
+}

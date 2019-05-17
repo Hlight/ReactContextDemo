@@ -1,3 +1,7 @@
+# Choose demo src
+
+Different variables of the app are contained in their own src directory e.g. "src.01-props", rename to "src" to enable.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
