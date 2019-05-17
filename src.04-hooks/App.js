@@ -5,24 +5,6 @@ import './App.css';
 // AppContext is a global state.
 const AppContext = React.createContext()
 // AppProvider contains methods (attached to it's state) which act like actions/reducers; essentially AppProviders state is our global data store.
-/*
-class AppProvider extends Component {
-  state = {
-    number: 10,
-    // action
-    inc: () => {
-      this.setState({ number: this.state.number + 1 });
-    }
-  };
-  render() {
-    return (
-      <AppContext.Provider value={this.state}>
-        {this.props.children}
-      </AppContext.Provider>
-    );
-  }
-}
-*/
 const AppProvider = props => {
   const [number, setNumber] = useState(4);
   const inc = () => setNumber(number + 1);
